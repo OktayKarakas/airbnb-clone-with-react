@@ -13,7 +13,10 @@ function Card(props) {
       {badgeText && <div className="card--badge">{badgeText}</div>}
       <img src={props.item.coverImg} className="card--image" />
       <div className="card--stats">
-        <img src="../images/star.png" className="card--star" />
+        <img
+          src="https://i.hizliresim.com/lyjz0u4.png"
+          className="card--star"
+        />
         <span>{props.item.rating}</span>
         <span className="gray"> ({props.item.stats.reviewCount}) • </span>
         <span className="gray">{props.item.location}</span>

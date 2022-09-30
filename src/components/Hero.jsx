@@ -3,7 +3,7 @@ import React from 'react'
 function Hero() {
   return (
     <div className="hero">
-      <img src="../images/photo-grid.png"></img>
+      <img src="https://i.hizliresim.com/32pbse3.png"></img>
       <div className="hero-content">
         <h1>Online Experiences</h1>
         <p>
